@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dependency Injection in Javascript/AngualrJs</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="DIApp">
+    <h2>Dependency Injection in Javascript/AngualrJs</h2>
+    <div ng-controller="DIController">
+      Move cursor from textbox and clik outside textbox, to see effect:
+      <input type="text" ng-model="name" ng-blur="upper();">
+  </div>
+  </body>
+</html>
